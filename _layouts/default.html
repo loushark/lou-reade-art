@@ -6,9 +6,13 @@
     <link rel="stylesheet" href="/assets/css/styles.css">
     {% feed_meta %}
     {% seo %}
+    {% include titleheader.html %}
   </head>
   <body>
     {% include navigation.html %}
     {{ content }}
   </body>
+  <footer>
+    {% include footer.html %}
+  </footer>
 </html>
