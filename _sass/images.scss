@@ -1,0 +1,13 @@
+.image-container {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 90vw;
+}
+
+.image-container img {
+  width: 25vw;
+  padding: 20px;
+}
