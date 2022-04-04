@@ -1,13 +1,9 @@
-
 * {
   font-family: 'Open Sans', sans-serif;
   color: grey;;
 }
 
-
-.current {
-  color: #70dbdb;
-}
+// lou reade art title
 
 .titleheader {
   display: flex;
@@ -28,6 +24,8 @@
   letter-spacing: 2px;
 }
 
+//navigation links
+
 .navbar {
   position: fixed; 
   z-index: 1; 
@@ -40,7 +38,6 @@
   align-items: center;
   overflow-x: hidden;
   border-bottom: 1px solid #E8E8E8;
-  
 }
 
 .navbar a {
@@ -51,27 +48,28 @@
   left: 0;
 }
 
-// html {
-//   min-height: 100%;
-// }
+.current {
+  color: #70dbdb;
+}
+
+//content
 
 body {
   min-height: 100%;
-margin: auto auto;
+  margin: auto auto;
 }
 
 .content {
   display: flex;
-justify-content: center;
-align-items: center;
-padding-top: 50px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
 }
 
 .home-image-div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .home-image-div img {
@@ -83,34 +81,30 @@ padding-top: 50px;
   padding-top: 10vh;
 }
 
-.home-image-2 {
-  // width: 55vh;
-  padding-top: 1vh;
+.nav-links {
+  display: flex;
+  position: fixed;
+  right: 0;
+  z-index: 2; 
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #E8E8E8;
+  overflow-x: hidden;
 }
 
-// footer {
-//   position: fixed;
-//   z-index: 3; 
-//   left: 0;
-//   bottom: 0;
-//   width: 200px;
-//   height: 100px;
-//   text-align: center;
-//   background-color: white;
-//   border-top: 1px solid #E8E8E8;
-// }
+.footer-img {
+  left: 0;
+  width: 20px;
+}
 
-// .footer-img {
-//   margin-top: 35px;
-//   width: 20px;
-// }
+.paintings-navbar {
+  background-color: pink;
+  width: 500px;
+  height: 5000px;
+}
 
-// .paintings-navbar {
-//   background-color: pink;
-//   width: 500px;
-//   height: 5000px;
-// }
-
-// .testing {
-//   font-size: 500px;
-// }
+.testing {
+  font-size: 500px;
+}
