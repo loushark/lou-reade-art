@@ -1,2 +1,10 @@
+- name: TEL AVIV
+  link: /paintings/tel-aviv.html
 - name: SAN FRANCISCO
   link: /paintings/san-francisco.html
+- name: JAPAN
+  link: /paintings/japan.html
+- name: GLASGOW
+  link: /paintings/glasgow.html
+- name: BICYCLES
+  link: /paintings/bicycles.html
