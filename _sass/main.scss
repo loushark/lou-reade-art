@@ -48,6 +48,10 @@
   left: 0;
 }
 
+.navbar a:hover {
+  color: #70dbdb;
+}
+
 .current {
   color: #70dbdb;
 }
@@ -97,14 +101,4 @@ body {
 .footer-img {
   left: 0;
   width: 20px;
-}
-
-.paintings-navbar {
-  background-color: pink;
-  width: 500px;
-  height: 5000px;
-}
-
-.testing {
-  font-size: 500px;
 }

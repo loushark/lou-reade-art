@@ -10,9 +10,10 @@
 
 .paintings-navbar a {
   font-size: 30px;
+  text-decoration: none;
+  color: pink;
 }
 
-.testing {
-  font-size: 10px;
-  color: purple;
+.paintings-navbar a:hover {
+  color: #70dbdb;
 }
